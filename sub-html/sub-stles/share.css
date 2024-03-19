@@ -1,0 +1,135 @@
+      body {
+          background-color: #010101;
+          color: #ffffff;
+          font-family: Arial, sans-serif;
+          margin: 0;
+      }
+
+      header {
+          background-color: #000;
+          color: #fff;
+          padding: 20px;
+          text-align: center;
+      }
+
+      main {
+          margin-top: 80px;
+          padding: 20px;
+      }
+
+      footer {
+          background-color: #000;
+          color: #fff;
+          text-align: center;
+          padding: 10px;
+          position: fixed;
+          bottom: 0;
+          width: 100%;
+      }
+
+      .flex-container {
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: space-around;
+      }
+
+      .equipment-item {
+          background-color: #343434;
+          border-radius: 10px;
+          box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+          margin: 10px;
+          padding: 20px;
+          width: 300px;
+          text-align: center;
+      }
+
+      .equipment-item img {
+          width: 200px;
+          height: 200px;
+          object-fit: cover;
+          border-radius: 0%;
+          margin-bottom: 15px;
+      }
+      .request-button {
+          background-color: #313131;
+          color: #fff;
+          border: none;
+          border-radius: 5px;
+          padding: 8px 16px;
+          cursor: pointer;
+          transition: background-color 0.3s;
+      }
+
+      .request-button:hover {
+          background-color: #1f0303;
+      }
+          .header {
+              position: fixed;
+              height: 75px;
+              width: 100%;
+              background-color: rgb(51, 50, 50);
+              display: flex;
+              flex-direction: row;
+              padding-left: 25px;
+              gap: 500px;
+              top: 0px;
+              left: 0px;
+              align-items: center;
+              font-size: 25px;
+              border-bottom: solid;
+              border-bottom-color: white;
+              border-radius: 0px;
+              ;
+              box-shadow: 10px;
+              z-index: 100;
+          }
+    
+          .header-1 {
+              display: flex;
+              flex-direction: row;
+              gap: 10px;
+    
+          }
+    
+          .logo {
+              height: 30px;
+              width: 30px;
+              margin-top: 27px;
+              border-radius: 50%;
+          }
+    
+          .header-1 p {
+    
+              font-family: Madimi One;
+          }
+    
+          .header-2 {
+              display: flex;
+              flex-direction: row;
+              gap: 60px;
+          }
+    
+          .header-home:hover {
+              cursor: pointer;
+              text-decoration: underline;
+          }
+    
+          .header-about:hover {
+              cursor: pointer;
+              text-decoration: underline;
+          }
+    
+          .header-Contact:hover {
+              cursor: pointer;
+              text-decoration: underline;
+          }
+    
+          .header-Feedback:hover {
+              cursor: pointer;
+              text-decoration: underline;
+          }
+    
+          .header-HealthyRecipes:hover {
+              cursor: pointer;
+              text-decoration: underline;
+          }

@@ -1,0 +1,61 @@
+
+.header{
+    position: fixed;
+    height:75px;
+    width:100%;
+    background-color: rgb(51, 50, 50);
+    display: flex;
+    flex-direction: row;
+    padding-left: 25px;
+    gap:500px;
+    top:0px;
+    left:0px;
+    align-items: center;
+    font-size: 25px;
+    border-bottom: solid;
+    border-bottom-color: white;
+    border-radius: 0px;;
+    box-shadow: 10px;
+    z-index:100;
+}
+.header-1{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+
+}
+.logo{
+    height: 30px;
+    width:30px;
+    margin-top: 27px;
+    border-radius: 50%;
+}
+.header-1 p{
+
+    font-family:Madimi One;
+}
+.header-2{
+    display: flex;
+    flex-direction: row;
+    gap:60px;
+}
+.header-home:hover{
+    cursor: pointer;
+    text-decoration:solid;
+}
+.header-about:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+.header-Contact:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+.header-Feedback:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+.header-HealthyRecipes:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
